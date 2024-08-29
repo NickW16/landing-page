@@ -10,15 +10,13 @@ body {
     display: flex;
     background-color: #1F2937;
     font-size: 18px;
-    gap: 32px;
-    width: 100%;
+    gap: 150px;
     justify-content: space-around;
     align-items: center;
 }
 
 .rightlink {
-    justify-content: right;
-    margin-right: 30px;
+    margin-left: 80px;
 }
 
 .logo {
@@ -46,11 +44,11 @@ a {
     display:flex;
     background-color: #1F2937;
     justify-content: space-evenly;
-    padding: 150px;
+    padding: 100px;
 }
 
 .hero-text {
-    
+    padding-right: 20px;
 }
 
 .hero-main-text {
@@ -60,30 +58,32 @@ a {
 }
 
 .hero-secondary-text {
+    padding-top: 8px;
+    padding-bottom: 10px;
     font-size: 18px;
     color:#E5E7EB
 }
 
 .image {
+    height: 235px;
+    width: 525px;
     display: flex;
     justify-content: center;
     background-color: #F9FAF8;
     align-items: center;
-    padding: 150px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 button {
     border: none;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
     color: #F9FAF8;
     background-color: #3882F6;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-right: 28px;
     padding-left: 28px;
 }
