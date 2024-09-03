@@ -75,7 +75,7 @@ a {
     flex-shrink: 0;
 }
 
-button {
+.sign-up {
     border: none;
     border-radius: 8px;
     font-size: 18px;
@@ -154,4 +154,43 @@ button {
     margin-left: auto;
     margin-right: 150px;
 }
+
+/* CALL TO ACTION */
+
+.call-to-action {
+    display:flex;
+    border-radius: 16px;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+    padding: 80px;
+}
+
+.call-text {
+    color:#F9FAF8;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.call-button {
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 34px;
+    padding-left: 34px;
+}
+
+/* FOOTER */
+
 
